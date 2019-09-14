@@ -1,6 +1,7 @@
 import React from 'react'
 
 const DummyTemplate=({pageContext})=>{
+    // destructures the data that was recieved through gatsby-node.js 
     const {contents,AuthorData}= pageContext
     return(
         <div>
